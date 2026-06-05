@@ -1,14 +1,13 @@
 package Math;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class FindAllPrimeNo {
     public static void main(String[] args) {
         int n=40;
         findAllPrimeNo(n);
 
     }
+
+    //sieve of Eratosthenes algorithm
     public static void findAllPrimeNo(int n){
         // for n+1 index and bi-default every index value set to be 0
         boolean[] prime=new boolean[n+1];
