@@ -8,6 +8,7 @@ public class Unique_Path {
         int n=2;
         System.out.println(uniquePaths(m,n));
     }
+    // top-down approach
     public static int uniquePaths(int m, int n) {
         int[][] dp = new int[m+1][n+1];
         for (int i = 0; i < m; i++) {
